@@ -1,1 +1,3 @@
-x
+## Future Improvements
+
+Several improvements could enhance the performance and robustness of this model. Feature engineering could be refined by replacing flattened RGB values with color histograms or HSV-based descriptors to improve resistance to lighting variations. The HOG parameters could also be tuned to optimize edge representation. Hyperparameter optimization using GridSearchCV would allow systematic tuning of SVM parameters such as C and gamma, potentially improving generalization. Increasing the dataset size and diversity, along with applying data augmentation techniques such as rotation and brightness adjustments, would further reduce overfitting. Feature scaling could improve KNN performance, as distance-based models are sensitive to magnitude differences. Finally, a convolutional neural network or transfer learning approach could be explored to replace handcrafted features and achieve higher accuracy.
